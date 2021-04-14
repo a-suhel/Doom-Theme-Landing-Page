@@ -1,0 +1,191 @@
+*{
+    font-family: Roboto;
+}
+.navbar-nav{
+    align-items: center;
+}
+.fa-phone{
+    background-color:#6170FF;
+    padding: 15px;
+}
+.hero{
+    background:linear-gradient(90deg, rgba(97,112,255, 0.30) 0%, rgba(97,112,255, 0.30) 38%, rgba(0,212,255, 0.30) 100%), url(../images/hero.jpeg);
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+.main-heading-1, .main-heading-2{
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+.main-heading-2{
+    font-weight: 600;
+}
+.main-heading-1{
+    letter-spacing: 4px;
+}
+.discover{
+    background-color: #6170FF!important ;
+    font-size: 0.8rem;
+    padding: 15px 25px 15px 25px;
+    border-radius: 0;
+}
+.discover-doom-btn{
+    background-color: #6170FF;
+    font-size: 0.7rem;
+    padding: 12px 25px 12px 25px;
+    border-radius: 0;
+    
+}
+.discover-doom-btn:hover{
+    background-color: #4a57c7;
+}
+.features{
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom:60px;
+
+}
+
+.user-area{
+    padding-bottom: 90px;
+    padding-top: 90px;
+    background-color: #F1F6F9;
+}
+
+.features i{
+    margin-bottom: 30px;
+}
+.features h2, .features p{
+    font-size: 1rem;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+.features h2{
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+.theme-word{
+    position: relative;
+}
+span.theme-word::before{
+    content: "";
+    background: rgb(4, 117, 182);
+    height: 2px;
+    width: 90px;
+    position: absolute;
+    bottom: 0;
+}
+
+.why-choose-us-cont{
+    background-image: linear-gradient(to right top, #6071ff, #7279ff, #8281ff, #8f89ff, #9c92ff);
+    padding: 100px 60px 100px 60px;
+}
+.why-choose-us{
+    background-color: #fff;
+    padding: 70px;
+    
+}
+.product,.faq{
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.faqs h4{
+    font-size: 1.20rem;
+}
+
+.features-heading{
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+.features-heading-2{
+    font-weight: 900;
+}
+
+.services .card-body{
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.services {
+    background-color: #F6FAFB;
+}
+
+.services-cont{
+    padding: 10px 60px 50px 60px;
+}
+.faq h5{
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.row-2 h4{
+font-weight: 900;
+}
+.row-2 p{
+    margin-bottom: 40px;
+}
+.faq-button{
+    background-color: #6170FF ;
+}
+.banner{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 40px;
+    background:linear-gradient(90deg, rgba(97,112,255, 0.30) 0%, rgba(97,112,255, 0.30) 38%, rgba(0,212,255, 0.30) 100%), url(../images/banner.jpg);
+    background-size: cover;
+}
+
+.footer-area{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #2a2f63;
+    color: #fff;
+}
+.footer-list{
+    list-style-type: none;
+}
+.footer-list li{
+    font-size: 0.85rem;
+}
+
+section.footer-area i {
+    color: white;
+}
+footer{
+    padding-top: 10px;
+    padding-bottom:10px;
+    background: #161933;
+    color:#fff;
+}
+.footer-bottom i{
+    color: #fff;
+}
+footer p{
+    margin-bottom: 0px;
+    font-size: 0.8rem;
+}
+.heading{
+    font-weight: 900;
+}
+.rights{
+    padding-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+/* .product .row {
+    flex-direction: column;
+    text-align: center;
+} */
+
+@media only screen and (min-width:320px) and (max-width:767px){
+
+    .banner{
+    text-align: center;
+}
+
+}
